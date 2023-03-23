@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <h3 class="heading">Log in to get started</h3>
+        <img src="logo.png" alt="">
+        <div>
+            <input type="text" class="userinput" placeholder="user">
+        </div>
+        <div>
+            <input type="text" class="pininput" name="" id="" placeholder="PIN">
+        </div>
+        <button class="arrowbutton">&rarr;</button>
+    </nav>
+<main class="hidden visible">
+    <header>
+        <p class="totalvalue">0000</p>
+        <p>Current As of </p>
+        <p class="todaydate" style=" color: #6d6f6e;  font-size: 13px;">nothing</p>
+    </header>
+
+    <div class="box">
+        <div class="m1">
+        <div class="d1 deposit">8 deposit</div>
+        <div class="d2">3 days ago</div>
+        <div class="d3">700</div>
+        </div>
+
+        <div class="m1">
+            <div class="d1 withdrawal">8 withdrawal</div>
+            <div class="d2">3 days ago</div>
+            <div class="d3">700</div>
+            </div>
+    </div>
+
+    <aside>
+        <h3>Transfer to</h3>
+        <input type="text" name="" id="" class="transferuserinput">
+        <input type="text" name="" id="" class="transferamountinput">
+        <button class="btntransferto">&rarr;</button>
+        <p>Transfer to</p>
+        <p>Amount</p>
+    </aside>
+
+    <aside class="request">
+        <h3>Request to</h3>
+        <input type="text" name="" class="amountrequestinput" id="">
+        <button class="btnrequestto">&rarr;</button>
+        <p>Amount</p>
+    </aside>
+
+    <aside class="close">
+        <h3>Close account</h3>
+        <input type="text" name="" class="usercloseinput" id="">
+        <input type="password" name="" class="pincloseinput" id="">
+        <button class="btncloseaccount">&rarr;</button>
+        <p>Confirm user</p>
+        <p>Confirm PIN</p>
+    </aside>
+    
+    <footer>
+        <div>
+            <p>IN</p>
+            <p class="in">0000€</p>
+        </div>
+        <div>
+            <p>OUT</p>
+            <p class="out">0000€</p>
+        </div>
+        <div>
+            <p>INTEREST</p>
+            <p class="interest">0000€</p>
+        </div>
+    </footer>
+    
+    <div class="sort">
+        <button class="btnsort">&downarrow;SORT</button>
+    </div>
+    <div class="timer">
+        <p>You will be logged out in <span class="timeinput"></span></p>
+    </div>
+</main>
+</body>
+<link rel="stylesheet" href="index.css">
+<script src="script.js"></script>
+</html>
